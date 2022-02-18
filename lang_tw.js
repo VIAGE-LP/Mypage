@@ -7,10 +7,10 @@
 // **************************************************
 const SETTING_ORDER_TITLE       = '訂單資訊';
 const SETTING_ORDERID           = '訂單編號';
-const SETTING_NAME              = '姓名';
-const SETTING_PAYMENT           = '購入金額';
-const SETTING_PRODUCT_ITEM      = '購入商品';
-const SETTING_SHIPPING_DATE     = '配送日期';
+const SETTING_NAME              = '訂購大名';
+const SETTING_PAYMENT           = '訂購金額';
+const SETTING_PRODUCT_ITEM      = '訂購商品';
+const SETTING_SHIPPING_DATE     = '預計送達日期';
 const SETTING_CHANGEDATE_BOTTOM = '更改日期';
 
 // **************************************************
@@ -39,8 +39,7 @@ const SETTING_RECEINING_CONV    = '超商取貨';
 const SETTING_MEMO              = '備註';
 const SETTING_REGULAR_YES       = '含定期商品';
 const SETTING_REGULAR_NO        = '不含定期商品';
-const SETTING_COD_MEMO          = `Viage晚安美型立體內衣，能夠幫助您打造完美胸型，解決您對各種內在美的煩惱。
-您貴重的商品，我們將以「台灣宅配通」進行最專業的配送服務，寄件者將顯示為「台灣娜珂黛肌」。<br>若您選擇的是「超商取件」，請靜候我們的到店簡訊通知。`;
+const SETTING_COD_MEMO          = `Viage晚安美型立體內衣，能夠幫助您打造完美胸型，解決您對各種內在美的煩惱。您貴重的商品，我們將以「台灣宅配通」進行最專業的配送服務，寄件者將顯示為「台灣娜珂黛肌」。<br>若您選擇的是「超商取件」，請靜候我們的到店簡訊通知。`;
 const SETTING_CONV_MEMO         = '超商取貨訂單無法選擇連假作為配送日';
 
 // **************************************************

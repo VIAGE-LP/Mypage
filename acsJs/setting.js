@@ -21,8 +21,8 @@ const SETTING_SHIPPING_DATE_ACTION_URL = "https://asp.acs-tpkg.com/ld?type=init"
 // - SETTING_ACCOUNT_ID
 //  => 使用するACCOUNT_IDを指定する
 // **************************************************
-const SETTING_USER_ID    = "tatest1";
-const SETTING_ACCOUNT_ID = "2014030002";
+const SETTING_USER_ID    = "nextage_lp2";
+const SETTING_ACCOUNT_ID = "2019030001";
 
 // **************************************************
 // 利用言語情報
