@@ -1,0 +1,91 @@
+:root {
+  --primaryBGColor: #EAF4F4;
+  --secondaryBGColor: #CCE3DE;
+}
+html,
+body {
+  margin: 0;
+  text-align: justify;
+}
+
+.Datecontainer {
+  margin: 0 auto;
+  width: 80%;
+}
+.Datecontainer .TextRed {
+  color: red;
+}
+.Datecontainer .TextCenter {
+  text-align: center;
+  margin: 1rem auto;
+}
+.Datecontainer .TextLeft {
+  width: 65%;
+  margin: 1rem auto;
+}
+.Datecontainer .logo {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+}
+.Datecontainer .orderTable {
+  margin: 1rem auto;
+}
+.Datecontainer .orderTable h2 {
+  display: block;
+  text-align: center;
+}
+.Datecontainer .orderTable table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 65%;
+}
+.Datecontainer .orderTable td, .Datecontainer .orderTable th {
+  border: 1px solid var(--secondaryBGColor);
+  text-align: left;
+  padding: 0 8px;
+  height: 3rem;
+}
+.Datecontainer .orderTable tr:nth-child(even) {
+  background-color: var(--primaryBGColor);
+}
+.Datecontainer .inputDate {
+  display: none;
+  position: relative;
+}
+.Datecontainer .inputDate #search {
+  display: none;
+}
+.Datecontainer .inputDate .changeDate {
+  background: #FFF;
+  width: 50%;
+  position: absolute;
+  left: 23.5%;
+  padding: 1rem;
+  border: 2px solid var(--secondaryBGColor);
+  text-align: center;
+  margin-top: -25rem;
+}
+.Datecontainer .inputDate .changeDate #Adjust_shippingDate {
+  margin-top: 1rem;
+}
+.Datecontainer .inputDate #cancel {
+  width: 20px;
+  position: absolute;
+  right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .Datecontainer .TextLeft {
+    width: 100%;
+  }
+  .Datecontainer .orderTable table {
+    width: 100%;
+  }
+  .Datecontainer .inputDate .changeDate {
+    width: 80%;
+    left: 4%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
