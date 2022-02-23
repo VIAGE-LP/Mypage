@@ -5,7 +5,7 @@
 // **************************************************
 // - 訂單資訊
 // **************************************************
-const SETTING_ORDER_TITLE       = '訂單資訊';
+const SETTING_ORDER_TITLE       = '訂購完成';
 const SETTING_ORDERID           = '訂單編號';
 const SETTING_NAME              = '訂購大名';
 const SETTING_PAYMENT           = '訂購金額';
@@ -50,7 +50,7 @@ const SETTING_CONV_MEMO         = '超商取貨訂單無法選擇連假作為配
 // => 靠左 : TextLeft
 // => 置中 : TextCenter
 // **************************************************
-const SETTING_MEMO_TOP          = '要改日期，請按更改日期';
+const SETTING_MEMO_TOP          = '您的訂單明細';
 const SETTING_MEMO_BOTTOM       = '如果想更改其他資訊，請Email給客服 <a href="support@viagebeautybra.com" target="_blank">support@viagebeautybra.com</a>';
 const SETTING_MEMO_DATE         = "國定假日無法選擇";
 const SETTING_MEMO_STYLE        = 'TextLeft';

@@ -4,7 +4,7 @@
 //  => 'https://asp.acs-tpkg.com/mypageapi';
 //  => 'https://ekkyo.acs-tpkg.com/mypageapi';
 // **************************************************
-const SETTING_ACTION_URL = "https://stg.acs-tpkg.com/mypageapi";
+const SETTING_ACTION_URL = "https://asp.acs-tpkg.com/mypageapi";
 
 // **************************************************
 // - SETTING_SHIPPING_DATE_ACTION_URL
@@ -23,6 +23,8 @@ const SETTING_SHIPPING_DATE_ACTION_URL = "https://asp.acs-tpkg.com/ld?type=init"
 // **************************************************
 const SETTING_USER_ID    = "nextage_lp2";
 const SETTING_ACCOUNT_ID = "2019030001";
+// const SETTING_USER_ID    = "tatest1";
+// const SETTING_ACCOUNT_ID = "2014030002";
 
 // **************************************************
 // 利用言語情報
@@ -36,29 +38,29 @@ const SETTING_LANGUAGE = "tw";
 // - tw : https://www.cros.tw/support/hld/holiday_tw.js
 // - en : https://www.cros.tw/support/hld/holiday_sg.js
 // **************************************************
-const SETTING_HOLIDAY = "https://www.cros.tw/support/hld/holiday_sg.js";
+const SETTING_HOLIDAY = "https://www.cros.tw/support/hld/holiday_tw.js";
 
 // **************************************************
 // 日期顯示格式設定
 // => 1 : 日/月/年 (Sat Jan 01 2022)
 // => 2 : 年/月/日 (2022/01/01)
 // **************************************************
-const SETTING_DEFAULT_DATE_DISPALY = "1";
+const SETTING_DEFAULT_DATE_DISPALY = "2";
 
 // **************************************************
 // 姓名顯示設定
 // => 1 : 名，姓
 // => 2 : 姓，名
 // **************************************************
-const SETTING_DEFAULT_NAME = "1";
+const SETTING_DEFAULT_NAME = "2";
 
 // **************************************************
 // 客製顏色
 // - SETTING_COLOR_PRIMARY 底色
 // - SETTING_COLOR_SECOND  框線
 // **************************************************
-const SETTING_COLOR_PRIMARY = "#EAF4F4";
-const SETTING_COLOR_SECOND  = "#CCE3DE";
+const SETTING_COLOR_PRIMARY = "#FFE9E9";
+const SETTING_COLOR_SECOND  = "#FFC3C0";
 
 document.documentElement.style.setProperty("--primaryBGColor", SETTING_COLOR_PRIMARY);
 document.documentElement.style.setProperty("--secondaryBGColor", SETTING_COLOR_SECOND);
@@ -74,7 +76,7 @@ const SETTING_MYPAGE  = "";
 // e.g: VCommonFiles/Mypage/img/logo.jpg
 // **************************************************
 // const SETTING_IMAGE = "Mypage/img/logo.jpg";
-const SETTING_IMAGE = "img/logo.jpg";
+const SETTING_IMAGE = "img/logo.png";
 // **************************************************
 // 依據利用言語情報引入不同語言包
 // 設定引入holiday

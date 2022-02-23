@@ -6,6 +6,7 @@ html,
 body {
   margin: 0;
   text-align: justify;
+  background-color: #FAEFEB;
 }
 
 .Datecontainer {
@@ -26,7 +27,7 @@ body {
 .Datecontainer .logo {
   display: block;
   margin: 0 auto;
-  height: 50px;
+  width:16%;
 }
 .Datecontainer .orderTable {
   margin: 1rem auto;
@@ -36,6 +37,7 @@ body {
   text-align: center;
 }
 .Datecontainer .orderTable table {
+  background-color: #ffff;
   border-collapse: collapse;
   margin: 0 auto;
   width: 65%;
@@ -85,6 +87,9 @@ body {
   .Datecontainer .inputDate .changeDate {
     width: 80%;
     left: 4%;
+  }
+  .Datecontainer .logo {
+    width:50%;
   }
 }
 
