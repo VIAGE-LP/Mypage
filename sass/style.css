@@ -29,6 +29,18 @@ body {
   margin: 0 auto;
   width:16%;
 }
+.Datecontainer .BGL{
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 0;
+}
+.Datecontainer .BGR{
+  position: absolute;
+  top:0;
+  right:0;
+  z-index: 0;
+}
 .Datecontainer .orderTable {
   margin: 1rem auto;
 }
@@ -90,6 +102,12 @@ body {
   }
   .Datecontainer .logo {
     width:50%;
+  }
+  .Datecontainer .BGL{
+    width:30%;
+  }
+  .Datecontainer .BGR{
+    width:30%;
   }
 }
 

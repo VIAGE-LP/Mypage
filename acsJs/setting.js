@@ -76,7 +76,9 @@ const SETTING_MYPAGE  = "";
 // e.g: VCommonFiles/Mypage/img/logo.jpg
 // **************************************************
 // const SETTING_IMAGE = "Mypage/img/logo.jpg";
-const SETTING_IMAGE = "img/logo.png";
+const SETTING_IMAGE = "img/logo.svg";
+const SETTING_IMAGE_BGL = "img/left_bg.png";
+const SETTING_IMAGE_BGR = "img/right_bg.png";
 // **************************************************
 // 依據利用言語情報引入不同語言包
 // 設定引入holiday

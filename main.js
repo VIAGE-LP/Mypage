@@ -6,6 +6,8 @@ var myPageinnerHTML = `
 
   <div class="Datecontainer">
     <img src="` + SETTING_IMAGE + `" class="logo">
+    <img src="` + SETTING_IMAGE_BGL + `" class="BGL">
+    <img src="` + SETTING_IMAGE_BGR + `" class="BGR">
     <div class="content">
       <div class="box1">
         <!--h2>Step1 請輸入 "account_id" 及 "order_token"</h2-->
