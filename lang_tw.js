@@ -5,9 +5,9 @@
 // **************************************************
 // - 訂單資訊
 // **************************************************
-const SETTING_ORDER_TITLE       = '訂購完成';
+const SETTING_ORDER_TITLE       = `訂購完成<br>請將此頁面加入我的最愛<br>以利可隨時確認訂單狀態`;
 const SETTING_ORDERID           = '訂單編號';
-const SETTING_NAME              = '訂購大名';
+const SETTING_NAME              = '訂購姓名';
 const SETTING_PAYMENT           = '訂購金額';
 const SETTING_PRODUCT_ITEM      = '訂購商品';
 const SETTING_SHIPPING_DATE     = '預計送達日期';
@@ -39,7 +39,11 @@ const SETTING_RECEINING_CONV    = '超商取貨';
 const SETTING_MEMO              = '備註';
 const SETTING_REGULAR_YES       = '含定期商品';
 const SETTING_REGULAR_NO        = '不含定期商品';
-const SETTING_COD_MEMO          = `Viage晚安美型立體內衣，能夠幫助您打造完美胸型，解決您對各種內在美的煩惱。您貴重的商品，我們將以「台灣宅配通」進行最專業的配送服務，寄件者將顯示為「台灣娜珂黛肌」。<br>若您選擇的是「超商取件」，請靜候我們的到店簡訊通知。`;
+const SETTING_COD_MEMO          = `Viage晚安立體美型內衣，能夠幫助您打造完美胸型，解決您對各種內在美的煩惱。您貴重的商品，我們將以「台灣宅配通」進行最專業的配送服務，寄件者將顯示為「台灣娜珂黛肌」。<br>
+若您選擇的是「超商取件」，請靜候我們的到店簡訊通知。<br>
+* 由於疫情期間配送運能有限，若無法在指定時間內送達，或有延遲現象，敬請見諒。詳細配送情況，請以出貨簡訊/MAIL內的追蹤狀態為主。<br>
+*「農曆新年前兩週至農曆新年期間」、「端午節、中秋節前一週」及「雙11購物節後一至兩週」為物流高峰期，故無法指定配送時段敬請見諒。<br>
+* 另如遇颱風地震等天災、公共工程、節慶活動管制路段,出貨時間將順延。實際送達時間，以物流公司的出貨日，送貨路線及貨量為主。`;
 const SETTING_CONV_MEMO         = '超商取貨訂單無法選擇連假作為配送日';
 
 // **************************************************
@@ -51,7 +55,7 @@ const SETTING_CONV_MEMO         = '超商取貨訂單無法選擇連假作為配
 // => 置中 : TextCenter
 // **************************************************
 const SETTING_MEMO_TOP          = '您的訂單明細';
-const SETTING_MEMO_BOTTOM       = '如果想更改其他資訊，請Email給客服 <a href="support@viagebeautybra.com" target="_blank">support@viagebeautybra.com</a>';
+const SETTING_MEMO_BOTTOM       = '如想更改訂單內容請聯繫客服，lineID搜尋：<a href="https://line.me/R/ti/p/%40fhl1857j" target="_blank">@fhl1857j</a>';
 const SETTING_MEMO_DATE         = "國定假日無法選擇";
 const SETTING_MEMO_STYLE        = 'TextLeft';
 
