@@ -78,7 +78,7 @@ const SETTING_DATE_NRWDATE      = '新配送日期： ';
 // 920 : 退貨(等待退款)
 // 930 : 退貨(退款完成)
 // **************************************************
-const SETTING_STAUTS                = '訂單狀態';
+const SETTING_STAUTS                = `訂單狀態<br>(已出貨包裹無法更改訂單內容)`;
 const SETTING_STAUTS_DELIVERY       = '配送貨態';
 const SETTING_STAUTS_TEXT           = {
     300: '出貨準備中',
