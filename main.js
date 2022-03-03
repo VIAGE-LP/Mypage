@@ -63,10 +63,7 @@ var myPageinnerHTML = `
             <td><p id="delivery_status_title" name="status_title"></p></td>
             <td><p id="delivery_status" name="status"></p></td>
           </tr>
-          <tr>
-            <td><p id="regular_flag_title" name="regular_flag"></p></td>
-            <td><p id="regular_flag" name="regular_flag"></p></td>
-          </tr>
+         
           <tr>
             <td colspan=2><p id="receiving_forbidon" name="receiving_forbidon"></p></td>
             <p id="token_info" name="token_info"></p>
@@ -166,8 +163,6 @@ $.ajax({
     addStatus(data.data.status, data.data.delivery_status_url);
     // addStatus(900, 'http://acs-oz.ec.ctwlogistics.com.tw');
 
-    if (data.data.regular_flag == '1') { document.getElementById("regular_flag").innerHTML = SETTING_REGULAR_YES; }
-    if (data.data.regular_flag == '0') { document.getElementById("regular_flag").innerHTML = SETTING_REGULAR_NO; }
     document.getElementById("payment_method_title").innerHTML = SETTING_PAYMENT_METHOD;
     var payment_id = data.data.payment_id;
     switch (payment_id) {
@@ -213,7 +208,6 @@ $.ajax({
     }
     document.getElementById("ShippingDate_info_title").innerHTML = SETTING_SHIPPING_DATE;
     document.getElementById("ShippingDate_info").innerHTML = LocalDateFormat(data.data.shipping_date) + "　";
-    document.getElementById("regular_flag_title").innerHTML = SETTING_MEMO;
     $.ajax({
       type: 'GET',
       url: urlShippingDate,
@@ -376,7 +370,6 @@ function remove() {
   document.getElementById("payment_info").innerHTML = "";
   document.getElementById("product_info_title").innerHTML = "";
   document.getElementById("product_info").innerHTML = "";
-  document.getElementById("regular_flag").innerHTML = "";
   document.getElementById("ShippingDate_info").innerHTML = "";
   document.getElementById("payment_method").innerHTML = "";
   document.getElementById("receiving_method").innerHTML = "";
