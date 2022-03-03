@@ -5,7 +5,7 @@
 // **************************************************
 // - 訂單資訊
 // **************************************************
-const SETTING_ORDER_TITLE       = `訂購完成<br>請將此頁面加入我的最愛<br>以利可隨時確認訂單狀態`;
+const SETTING_ORDER_TITLE       = `訂購完成<br>請將此頁網址留存<br>以利可隨時確認訂單狀態`;
 const SETTING_ORDERID           = '訂單編號';
 const SETTING_NAME              = '訂購姓名';
 const SETTING_PAYMENT           = '訂購金額';
